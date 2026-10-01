@@ -1,1 +1,1 @@
-# hotel-management-
+# hotel-management-api
