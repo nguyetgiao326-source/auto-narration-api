@@ -29,5 +29,10 @@ public class AppDbContext : DbContext
             .HasOne(x => x.AudioFile)
             .WithOne(x => x.Narration)
             .HasForeignKey<AudioFile>(x => x.NarrationId);
+        b.Entity<Language>().HasData(
+    new Language { Id = 1, Code = "vi", Name = "Tiếng Việt", IsActive = true },
+    new Language { Id = 2, Code = "en", Name = "English", IsActive = true },
+    new Language { Id = 3, Code = "ja", Name = "日本語", IsActive = true },
+    new Language { Id = 4, Code = "ko", Name = "한국어", IsActive = true });
     }
 }
