@@ -1,8 +1,8 @@
-using Scalar.AspNetCore;
 using AudioGuide.Repository.Data;
 using AudioGuide.Repository.Repositories;
 using AudioGuide.Service;
 using Microsoft.EntityFrameworkCore;
+using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
