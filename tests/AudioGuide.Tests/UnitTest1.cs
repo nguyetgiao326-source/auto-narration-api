@@ -1,4 +1,4 @@
-﻿namespace HotelManagement.Tests;
+﻿namespace AudioGuide.Tests;
 
 public class UnitTest1
 {

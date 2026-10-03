@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\HotelManagement.Service\HotelManagement.Service.csproj" />
+    <ProjectReference Include="..\..\src\AudioGuide.Service\AudioGuide.Service.csproj" />
   </ItemGroup>
 
 </Project>

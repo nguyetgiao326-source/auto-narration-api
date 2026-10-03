@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\HotelManagement.Model\HotelManagement.Model.csproj" />
+    <ProjectReference Include="..\AudioGuide.Model\AudioGuide.Model.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
